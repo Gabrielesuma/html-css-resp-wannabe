@@ -135,7 +135,16 @@ img {
 }
 
 @media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+
     .row{
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .col{
+        justify-content: center;
+        width: 100%;
     }
 }
